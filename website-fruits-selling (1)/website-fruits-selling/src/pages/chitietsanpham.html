@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../css/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="border-b-4 border-[#5e9939]">
+      <div
+        class="container mx-auto py-3 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16"
+      >
+        <div
+          class="flex py-3 px-20 h-[55px] w-full items-center justify-between border-b-[1px] border-[#5e9939]"
+        >
+          <div class="flex space-x-5">
+            <a href="#" class="text-[#5e9939] text-xl underline font-semibold"
+              >Kênh người bán</a
+            >
+            <a href="#" class="text-[#5e9939] text-xl underline font-semibold"
+              >Kết nối</a
+            >
+            <div class="flex space-x-3">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png"
+                alt=""
+                height="30px"
+                width="30px"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png"
+                alt=""
+                height="30px"
+                width="30px"
+              />
+            </div>
+          </div>
+          <div class="flex space-x-5">
+            <div class="flex space-x-3">
+              <a href="#" class="text-[#5e9939] text-xl underline font-semibold"
+                >Thông báo</a
+              >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/3119/3119338.png"
+                alt=""
+                height="30px"
+                width="30px"
+              />
+            </div>
+            <div class="flex space-x-3">
+              <a href="#" class="text-[#5e9939] text-xl underline font-semibold"
+                >Hỗ trợ</a
+              >
+              <img
+                src="../resource/tele.svg"
+                alt=""
+                height="30px"
+                width="30px"
+              />
+            </div>
+            <a href="./admin/index.html" class="flex space-x-3">
+                <h1 href="#" class="text-[#5e9939] text-xl underline font-semibold">
+                  Đăng nhập
+                </h1>
+                <img
+                  src="https://static.vecteezy.com/system/resources/previews/020/911/740/original/user-profile-icon-profile-avatar-user-icon-male-icon-face-icon-profile-icon-free-png.png"
+                  alt=""
+                  height="30px"
+                  width="30px"
+                />
+            </a>
+          </div>
+        </div>
+
+        <div class="flex justify-between items-center py-3">
+          <!-- Logo và Tên Shop -->
+          <div class="flex items-center space-x-4">
+            <img src="../resource/Logo.png" alt="logo" width="350px" />
+          </div>
+
+          <!-- Search bar và Cart -->
+          <div class="flex items-center space-x-4">
+            <form action="submit" class="flex items-center space-x-2">
+              <input
+                type="text"
+                placeholder="Tìm kiếm sản phẩm"
+                class="rounded-lg border border-gray-300 px-3 py-2 text-sm sm:text-base lg:text-lg xl:text-xl w-64 lg:w-80 xl:w-96"
+              />
+              <button
+                type="submit"
+                class="flex items-center justify-center bg-[#5e9939] text-white rounded-lg p-2"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/622/622669.png"
+                  alt="search"
+                  height="24px"
+                  width="24px"
+                />
+              </button>
+            </form>
+            <div class="flex items-center space-x-2">
+              <a href="#">
+                <img
+                  src="https://cdn-icons-png.freepik.com/512/1413/1413908.png"
+                  alt="cart"
+                  height="40px"
+                  width="40px"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="https://www.svgrepo.com/show/509382/menu.svg"
+                  alt="menu"
+                  height="24px"
+                  width="24px"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu -->
+        <div
+          class="max-w-screen-xl mx-auto grid grid-cols-4 gap-7 justify-center py-3"
+        >
+          <a
+            href="index.html"
+            class="py-3 px-6 text-xl font-semibold rounded-lg flex items-center justify-center hover:bg-[#e2f3e1] transition-colors duration-300"
+            >Trang chủ</a
+          >
+          <a
+            href="danhsach.html"
+            class="py-3 px-6 text-xl font-semibold rounded-lg flex items-center justify-center hover:bg-[#e2f3e1] transition-colors duration-300"
+            >Danh mục</a
+          >
+          <a
+            href="aboutus.html"
+            class="py-3 px-6 text-xl font-semibold rounded-lg flex items-center justify-center hover:bg-[#e2f3e1] transition-colors duration-300"
+            >Giới thiệu</a
+          >
+          <a
+            href="lienhe.html"
+            class="py-3 px-6 text-xl font-semibold rounded-lg flex items-center justify-center hover:bg-[#e2f3e1] transition-colors duration-300"
+            >Liên hệ</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- Phần content body -->
+    <div class="bg-slate-100">
+      <div
+        class="bg-white w-full h-full container mx-auto py-5 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16"
+      >
+        <nav class="flex" aria-label="Breadcrumb">
+          <ol
+            class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse"
+          >
+            <li class="inline-flex items-center">
+              <a
+                href="index.html"
+                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-green-600 dark:text-gray-400 dark:hover:text-white"
+              >
+                <svg
+                  class="w-3 h-3 me-2.5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z"
+                  />
+                </svg>
+                Trang chủ
+              </a>
+            </li>
+            <li>
+              <div class="flex items-center">
+                <svg
+                  class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 6 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 9 4-4-4-4"
+                  />
+                </svg>
+                <a
+                  href="danhsach.html"
+                  class="ms-1 text-sm font-medium text-gray-700 hover:text-green-600 md:ms-2 dark:text-gray-400 dark:hover:text-white"
+                  >Sản phẩm</a
+                >
+              </div>
+            </li>
+            <li aria-current="page">
+              <div class="flex items-center">
+                <svg
+                  class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 6 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 9 4-4-4-4"
+                  />
+                </svg>
+                <span
+                  class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400"
+                  >Quả đào</span
+                >
+              </div>
+            </li>
+          </ol>
+        </nav>
+        <div class="my-5 grid grid-cols-3 gap-3 divide-x">
+          <!--Hình ảnh sản phẩm-->
+          <div class="">
+            <div class="flex justify-center">
+              <img
+                src="https://images-ext-1.discordapp.net/external/9GWYHkgRUEybS1HwLuj7mDgzJJ96owx1D3o_1uP-Wbs/%3Fid%3DOIP.Ei9Ih2iAQPqOZeah91C35QHaGL%26pid%3DApi%26P%3D0%26h%3D220/https/tse4.mm.bing.net/th?format=webp&width=528&height=440"
+                alt=""
+                class="object-cover w-[400px] h-[400px] border-[1px] border-gray-100 rounded-sm"
+              />
+            </div>
+            <div class="my-3 grid grid-cols-3 gap-3 justify-items-center">
+              <img
+                src="https://images-ext-1.discordapp.net/external/9GWYHkgRUEybS1HwLuj7mDgzJJ96owx1D3o_1uP-Wbs/%3Fid%3DOIP.Ei9Ih2iAQPqOZeah91C35QHaGL%26pid%3DApi%26P%3D0%26h%3D220/https/tse4.mm.bing.net/th?format=webp&width=528&height=440"
+                alt=""
+                class="object-cover w-[100px] h-[100px] border-[1px] border-gray-100 rounded-sm"
+              />
+              <img
+                src="https://images-ext-1.discordapp.net/external/9GWYHkgRUEybS1HwLuj7mDgzJJ96owx1D3o_1uP-Wbs/%3Fid%3DOIP.Ei9Ih2iAQPqOZeah91C35QHaGL%26pid%3DApi%26P%3D0%26h%3D220/https/tse4.mm.bing.net/th?format=webp&width=528&height=440"
+                alt=""
+                class="object-cover w-[100px] h-[100px] border-[1px] border-gray-100 rounded-sm"
+              />
+              <img
+                src="https://images-ext-1.discordapp.net/external/9GWYHkgRUEybS1HwLuj7mDgzJJ96owx1D3o_1uP-Wbs/%3Fid%3DOIP.Ei9Ih2iAQPqOZeah91C35QHaGL%26pid%3DApi%26P%3D0%26h%3D220/https/tse4.mm.bing.net/th?format=webp&width=528&height=440"
+                alt=""
+                class="object-cover w-[100px] h-[100px] border-[1px] border-gray-100 rounded-sm"
+              />
+            </div>
+          </div>
+          <!--Thông tin sản phẩm-->
+          <div class="flex col-span-2 justify-center">
+            <div class="space-y-5">
+              <h1 class="text-3xl font-semibold text-[#5e9939]">Quả đào</h1>
+              <div class="grid grid-cols-2 gap-0">
+                <h1 class="text-2xl font-semibold">Giá</h1>
+                <h1 class="text-2xl font-semibold">: 100.000<sup>đ</sup>/kg</h1>
+              </div>
+              <div class="grid grid-cols-2 gap-0">
+                <h1 class="text-2xl font-semibold">Đơn vị tính</h1>
+                <h1 class="text-2xl font-semibold">: kg</h1>
+              </div>
+              <div class="grid grid-cols-2 gap-0">
+                <h1 class="text-2xl font-semibold">Xuất xứ</h1>
+                <h1 class="text-2xl font-semibold">: Việt Nam</h1>
+              </div>
+              <div class="grid grid-cols-2 gap-0">
+                <h1 class="text-2xl font-semibold">Số lượng</h1>
+                <input type="number" placeholder="Nhập số lượng" />
+              </div>
+              <div class="grid grid-cols-2 gap-7 py-6">
+                <button
+                  class="p-3 text-xl text-white font-bold border-2 border-[#5e9939] rounded-lg bg-[#5e9939]"
+                >
+                  Thêm vào giỏ
+                </button>
+                <button
+                  class="p-3 text-xl text-white font-bold border-2 border-[#de802f] rounded-lg bg-[#de802f]"
+                >
+                  Đặt hàng
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="my-5">
+          <h1 class="text-3xl font-semibold text-[#5e9939]">Mô tả sản phẩm</h1>
+          <p class="text-lg my-3">
+            – Có hàm lượng vitamin A cao, không chỉ tốt cho mắt, ăn quả đào hàng ngày còn cải thiện làn da.
+            <br>
+            – Cải thiện tình trạng mất trí nhớ, ngăn ngừa ung thư, làm chậm lão hóa.
+            <br>
+            – Tốt cho tim mạch, giảm viêm nhiễm xương khớp, đau nhức cơ. Lượng chất xơ dồi dào trong đào hỗ trợ tốt cho tiêu hóa.
+          </p>
+      </div>
+    </div>
+
+    <!-- Footer cuối trang -->
+    <footer class="border-t-4 border-green-700">
+      <div
+        class="w-full h-[250px] container mx-auto py-3 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16"
+      >
+        <div class="grid grid-cols-4 divide-x">
+          <div class="items-center justify-center space-y-5">
+            <h1 class="font-semibold text-center">Chăm sóc khách hàng</h1>
+            <div class="ml-24 text-green-700 underline">
+              <a href="#">Trung tâm trợ giúp</a>
+              <br />
+              <a href="#">Hướng dẫn mua hàng</a>
+              <br />
+              <a href="#">Hướng dẫn bảo quản</a>
+              <br />
+              <a href="#">Hướng dẫn thanh toán</a>
+              <br />
+              <a href="#">Chính sách hoàn trả</a>
+              <br />
+              <a href="#">CSKH</a>
+            </div>
+          </div>
+          <div class="items-center justify-center space-y-5">
+            <h1 class="font-semibold text-center">Về doanh nghiệp</h1>
+            <div class="ml-28 text-green-700 underline">
+              <a href="#">Giới thiệu về shop</a>
+              <br />
+              <a href="#">Kênh người bán</a>
+              <br />
+              <img
+                src="https://webmedia.com.vn/images/2021/09/logo-da-thong-bao-bo-cong-thuong-mau-xanh.png"
+                alt=""
+                class="mt-5"
+                width="140px"
+              />
+            </div>
+          </div>
+          <div class="items-center justify-center space-y-5">
+            <h1 class="font-semibold text-center">Thanh toán</h1>
+            <div class="ml-24 text-green-700 underline">
+              <a href="#" class="flex items-center space-x-24">
+                <h1>COD</h1>
+                <!-- Icon COD-->
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/2897/2897832.png"
+                  alt=""
+                  height="30px"
+                  width="30px"
+                />
+              </a>
+              <a href="#" class="flex items-center space-x-[100px]">
+                <h1>Visa</h1>
+                <!-- Icon COD-->
+                <img
+                  src="https://static-00.iconduck.com/assets.00/visa-icon-2048x628-6yzgq2vq.png"
+                  alt=""
+                  height="30px"
+                  width="30px"
+                />
+              </a>
+              <a href="#" class="flex items-center space-x-14">
+                <h1>Zalo pay</h1>
+                <!-- Icon COD-->
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/vi/7/77/ZaloPay_Logo.png"
+                  alt=""
+                  width="70px"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="items-center justify-center space-y-5">
+            <h1 class="font-semibold text-center">Kết nối</h1>
+            <div class="ml-24 text-green-700 underline">
+              <a href="#" class="flex items-center space-x-24">
+                <h1>Facebook</h1>
+                <!-- Icon FB-->
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png"
+                  alt=""
+                  height="30px"
+                  width="30px"
+                />
+              </a>
+              <a href="#" class="flex items-center space-x-[106px]">
+                <h1>Youtube</h1>
+                <!-- Icon YT-->
+                <img
+                  src="https://cdn-icons-png.flaticon.com/256/1384/1384060.png"
+                  alt=""
+                  height="30px"
+                  width="30px"
+                />
+              </a>
+              <a href="#" class="flex items-center space-x-[94px]">
+                <h1>Instagram</h1>
+                <!-- Icon IG-->
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png"
+                  alt=""
+                  width="30px"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-5 mb-5" />
+        <div class="items-center justify-between flex">
+          <div class="flex space-x-2">
+            <h1>© 2024 Tên shop</h1>
+          </div>
+          <div class="flex items-center">
+            <img src="https://cdn.haitrieu.com/wp-content/uploads/2021/10/Logo-Hoc-Vien-Nong-Nghiep-Viet-Nam-VNUA.png" alt="logovnua"
+            height="60px"
+            width="60px"
+            class="mx-5"
+            >     
+            <div>
+          <div>
+            <h1>Trụ sở: Học viện Nông nghiệp Việt Nam</h1>
+            <h1>Sđt: 09876554321</h1>
+            <h1>Website: ...</h1>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  </body>
+</html>
